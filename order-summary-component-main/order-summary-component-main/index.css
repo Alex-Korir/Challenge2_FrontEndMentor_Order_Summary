@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    --main-font: 'Red Hat Display', sans-serif;
+}
+.section-1{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid red; */
+    background: url("images/pattern-background-desktop.svg");
+    background-position: center;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+}
+.container-1{
+    width: 300px;
+    height: 470px;
+    /* border: 1px solid green; */
+    border-radius: 15px;
+    background-color: hsl(225, 100%, 100%);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container-1 img{
+    width: 100%;
+    position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+.container-1 > .content{
+    width: 100%;
+    position: relative;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.first-content h3{
+    font-family: var(--main-font);
+    margin-bottom: 10px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+.first-content p{
+    font-family: var(--main-font);
+    font-size: 13px;
+    line-height: 24px;
+    color: hsl(224, 23%, 55%);
+}
+.music{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 7px;
+    padding: 13px;
+    margin-bottom: 22px;
+}
+.oneSide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 5px; */
+}
+
+.cont img{
+    width: 38px;
+    height: 38px;
+    margin-right: 8px;
+}
+.contt{
+    text-align: left;
+    line-height: 22px;
+
+}
+.contt h5{
+    font-family: var(--main-font);
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+.contt p{
+    font-size: 13px;
+    font-family: var(--main-font);
+    color: hsl(224, 23%, 55%);
+}
+.secondSide a{
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-weight: bold;
+    color: hsl(245, 75%, 52%);
+}
+.buttonn{
+    width: 100%;
+    font-family: var(--main-font);
+    font-size: 12px;
+}
+.b-first{
+    background-color: hsl(245, 75%, 52%);
+    padding: 7px;
+    border-radius: 5px;
+    color: hsl(225, 100%, 98%);
+    margin-bottom: 10px;
+    box-shadow: 0 10px 3px hsl(225, 100%, 98%);
+}
+.b-second{
+    padding: 7px;
+    color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center; 
+    bottom: 3%;
+    position: absolute;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
